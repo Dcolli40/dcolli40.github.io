@@ -3,13 +3,35 @@ body
   font-family: Tahoma, sans-serif;
   color: #C59B76;
   background: #8FD5A6;
+
 }
 
 header
 {
-  font-family: Courier, serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-align: center;
   color: #5D3A00;
+}
+
+h1
+{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;
+color:seagreen;
+}
+
+h2
+{
+font-family: fantasy;
+text-align: left;
+color:#5D3A00;
+}
+
+h3
+{
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+text-align: left;
+color:forestgreen;
 }
 
 p
@@ -17,4 +39,40 @@ p
   font-family: Times_New_Roman, serif;
   text-align: left;
   color: #5D3A00
+}
+
+a
+{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #C59B76;
+}
+
+div
+{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color: #C59B76;
+font-size: medium;
+text-align: right;
+position:top;
+width:100%;
+height: 25px;
+background:#5D3A00;
+}
+
+footer
+{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: medium;
+text-align: center;
+position:relative;
+bottom:auto;
+width:100%;
+height: 50px;
+background:#5D3A00;
+}
+
+figure
+{
+  font-style: italic;
+  text-align: center;
 }

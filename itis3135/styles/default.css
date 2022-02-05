@@ -9,7 +9,7 @@ body
 
 header
 {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Audiowide", sans-serif;
   text-align: center;
   color: #aad688;
   text-decoration:none;
@@ -27,8 +27,8 @@ h2
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 text-align: left;
 color: #5ea758;
-margin-left: 75px;
-margin-right: 75px;
+margin-left: 100px;
+margin-right: 100px;
 
 }
 
@@ -37,17 +37,31 @@ h3
 font-family: Tahoma, sans-serif;
 text-align: left;
 color:#5ea758;
+margin-left: 75px;
+margin-right: 75px;
 }
 
 p
 {
-  font-family: Times_New_Roman, serif;
+  font-family: Tahoma, sans-serif;
+  text-align: left;
+  color: #e3dac9;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+ul
+{
   text-align: left;
   color: #e3dac9;
   margin-left: 75px;
   margin-right: 75px;
+  
 }
-
+li
+{
+  list-style-image: url("../images/smallcroc.png");
+  margin: 10px 0;
+}
 a
 {  
   color: #e3dac9;
@@ -61,7 +75,6 @@ color: #C59B76;
 font-size: medium;
 text-align: center;
 position:top;
-
 height: 25px;
 background:#5D3A00;
 margin-left: 50px;
@@ -76,7 +89,6 @@ text-align: center;
 position:relative;
 bottom:auto;
 text-decoration: none;
-height: 75px;
 background:#5D3A00;
 margin-left:  75px;
 margin-right: 75px;

@@ -115,8 +115,9 @@ form
   margin-left: 25px;
   text-align: center;
 }
-p form
+p,form
 {
+  color:black;
   display: table-row;
 }
 input 

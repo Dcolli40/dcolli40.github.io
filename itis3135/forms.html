@@ -6,18 +6,10 @@
     <link href = "styles/default.css" type = "text/css"  rel = "stylesheet">
 </head>
 <body>
+    <div data-include="componets/header.html"></div>
     <header>
         <h1>Dan Collins🐊 ITIS 3135 🐊 Dancing Crocs User Form</h1>
     </header>
-    <div class ="topnav">
-        <a class = "active" href = "index.html">Home</a>
-        <a href = "introduction.html">Introduction</a>
-        <a href = "contract.html">Contract</a>
-        <a href = "table.html">Table</a>
-        <a href = "forms.html">Sign-in Forms</a>
-        <a href = "brand-danicing-crocs.html">Brand Page</a>
-        <a href = "/">UNCC Home</a>
-    </div>
     <main>
         <h2>Let us know about yourself!</h2>
         <form action="#">
@@ -86,12 +78,13 @@
                     <option value="wyoming">Wyoming</option>
                 </select>
             </p>
-            <p><label for="gender1">Male:</label>
+            <p>
+            <label for="gender1">Male:</label>
             <input required type="radio" id = "male" name = "gender1" value = "Male">
             <label for="gender2">Female:</label>
             <input required type="radio" id = "female" name = "gender2" value = "Female">
-        </p>
-            
+        
+            </p>
             <p>
             <label for = "animal1" >Dog owner:</label>
             <input type="checkbox" class= "check" id = "animal1" name="animal1" value="Dog">
@@ -107,19 +100,13 @@
             <input type = "checkbox" class= "check" id = "other" name="other" value="Other">
             </p>
            
+            <p>
             <input type="submit" value="Submit">
             <input type="reset" value="Reset all">
+            </p>
         </form>
     </main>
-    <br>
-<footer>
-    <a href = "https://github.com/dcolli40/">Github</a> 🐊 <a href = "https://dcolli40.github.io/">Github.io</a> 🐊  <a href = "https://dcolli40.github.io">ITIS 3135 Github Pages</a> 🐊 <a href = "https://www.codecademy.com/profiles/Dcolli40">Codeacademy</a> 🐊 <a href = "https://www.freecodecamp.org/Dcolli40">freeCodeCamp</a> 🐊 <a href = "https://jsfiddle.net/user/Danthecodingman/">JSFiddle</a> 🐊 <a href = "https://www.linkedin.com/in/dan-collins-85ba0a192/">LinkedIn</a> 🐊
-    <br>
-Designed by <a href = "collinscreations.com/index.html">Collins Creations</a>&copy;2022 
-<br>
-<a href = "https://validator.w3.org/nu/?doc=https%3A%2F%2Fwebpages.charlotte.edu/dcolli40/itis3135/index.html%2F"><img src = "images/button_validation_html5.png" alt = "HTML Validation Button"></a>
-<a href = "https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2webpages.charlotte.edu/dcolli40/itis3135/index.html%2F"><img src = "images/button_validation_css.png" alt = "CSS Validation Button"></a>
-
-</footer>    
+    <div data-include="componets/footer.html"></div>
+<script src="scripts/htmlinclude.js"></script>    
 </body>
 </html>

@@ -57,7 +57,15 @@ ul
   margin-right: 75px;
   
 }
-li
+ol
+{
+  text-align: left;
+  color: #e3dac9;
+  margin-left: 75px;
+  margin-right: 75px;
+  
+}
+li, p
 {
   list-style-image: url("../images/smallcroc.png");
   margin: 10px 0;
@@ -155,4 +163,11 @@ input
 label
 {
   display: table-cell;
+}
+h6
+{
+  font-size: medium;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 125px;
+  color:#e3dac9;
 }

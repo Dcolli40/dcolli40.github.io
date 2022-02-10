@@ -2,7 +2,7 @@ body
 {
   font-family: Tahoma, sans-serif;
   color: #C59B76;
-  background: #47894b;
+  background: #e3dac9;
   margin-left: 75px;
   margin-right: 75px;
 }
@@ -45,14 +45,14 @@ p
 {
   font-family: Tahoma, sans-serif;
   text-align: left;
-  color: #e3dac9;
+  color:#5ea758;
   margin-left: 100px;
   margin-right: 100px;
 }
 ul
 {
   text-align: left;
-  color: #e3dac9;
+  color:#5ea758;
   margin-left: 75px;
   margin-right: 75px;
   
@@ -60,7 +60,7 @@ ul
 ol
 {
   text-align: left;
-  color: #e3dac9;
+  color:#5ea758;
   margin-left: 75px;
   margin-right: 75px;
   
@@ -144,7 +144,7 @@ form
   background-color: wheat;
   width: 160px;
   display: table;
-  margin-left: 25px;
+  margin-left: 100px;
   text-align: center;
 }
 p form
@@ -165,11 +165,12 @@ label
   color: black;
   font-family: Arial, Helvetica, sans-serif;
   display: table-cell;
+  margin-left: 75px;
 }
 h6
 {
   font-size: medium;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin-left: 125px;
-  color:#e3dac9;
+  color:#5ea758;
 }

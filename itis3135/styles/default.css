@@ -72,7 +72,7 @@ li, p
 }
 a
 {  
-  color: #e3dac9;
+  color: ghostwhite;
   text-decoration-style: none;
 }
 
@@ -87,6 +87,11 @@ height: 25px;
 background:#5D3A00;
 margin-left: 50px;
 margin-right: 50px;
+}
+main
+{
+margin-left:100px;
+margin-right:100px;
 }
 
 footer

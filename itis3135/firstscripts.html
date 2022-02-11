@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset = "utf-8">
+    <title>Dan Collins 🐊 ITIS 3135 🐊 Dancing Crocs First Scripts</title>
+    <link href = "styles/default.css" type = "text/css"  rel = "stylesheet">
+    
+</head>
+<body>
+    <div data-include="componets/header.html"></div>
+    <main>
+        <h2>First Java Script</h2>
+        <p>What is your Name?<input type="text" id="name" name="Uname" value = "Your Name"/></p>
+        <p>How are you feeling today? <input type = "text" id = "feeling" value = "Your feelings"/></p>
+        <br>
+        <input onclick = 'getInfo()'type = "button" name = 'Submit' id = 'Submit' value = "Submit"/>        <p>
+            Some Java Script is going to go here. 
+        </p>
+        <p id = "output">
+            things here 
+        </p>
+        <button onclick="getDate();">Click me to test Script</button>
+        <p>Date/Time: <span id="datetime"></span></p>
+    </main>
+    <div data-include="componets/footer.html"></div>   
+<script src="scripts/htmlinclude.js"></script> 
+<script src = "scripts/defaultscripts.js"></script>
+</body>
+
+
+</html>

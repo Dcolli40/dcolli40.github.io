@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset = "utf-8">
+    <title>Dan Collins 🐊 ITIS 3135 🐊 Dancing Crocs Calculator</title>
+    <link href = "styles/default.css" type = "text/css"  rel = "stylesheet">
+    
+</head>
+<body>
+    <div data-include="componets/header.html"></div>
+    <main>
+        <h2>Calculator Attempt #1</h2>
+        <p class = "pcalc">
+        <table width = '100%' class= "calctable">
+            <tr>
+                <td colspan="4"><h5 id = "calcoutput"></h5></td>
+            </tr>
+            <tr class="calcrow">
+                <td class="calcdata"><input class = "calculatorinput" onclick = "get1()" type=button value="1" style="width:100%" ></td>
+                <td class="calcdata"><input class = "calculatorinput" onclick = "get2()"type=button value="2" style="width:100%" ></td>
+                <td class="calcdata"><input class = "calculatorinput" onclick = "get3()"type=button value="3" style="width:100%" ></td>
+                <td class="calcdata"><input class = "calculatorinput" onclick = "getplus()"type=button value="+" style="width:100%" ></td>
+            </tr>
+            <tr class="calcrow">
+                <td class="calcdata"><input class = "calculatorinput" onclick = "get4()"type=button value="4" style="width:100%" ></td>
+                <td class="calcdata"><input class = "calculatorinput" onclick = "get5()"type=button value="5" style="width:100%" ></td>
+                <td class="calcdata"><input class = "calculatorinput" onclick = "get6()"type=button value="6" style="width:100%" ></td>
+                <td class="calcdata"><input class = "calculatorinput" onclick = "getminus()"type=button value="-" style="width:100%" ></td>
+
+            </tr>
+            <tr class="calcrow">
+                <td class="calcdata"><input class = "calculatorinput" onclick = "get7()"type=button value="7" style="width:100%" ></td>
+                <td class="calcdata"><input class = "calculatorinput" onclick = "get8()"type=button value="8" style="width:100%" ></td>
+                <td class = "calcdata"><input class = "calculatorinput" onclick = "get9()"type=button value="9" style="width:100%" ></td>
+                <td class="calcdata"><input class = "calculatorinput" onclick = "getmult()"type=button value="*" style="width:100%" ></td>
+
+            </tr>
+            <tr class="calcrow">
+                <td class="calcdata"><input class = "calculatorinput" type=button value="CLEAR" style="width:100%" ></td>
+                <td class="calcdata"><input class = "calculatorinput" onclick = "get0()"type=button value="0" style="width:100%" ></td>
+                <td class="calcdata"><input class = "calculatorinput" type=button value="ENTER" style="width:100%" ></td>
+                <td class="calcdata"><input class = "calculatorinput" onclick = "getdiv()"type=button value="/" style="width:100%" ></td>
+            </tr>
+        </table></p>
+    </main>
+    <div data-include="componets/footer.html"></div>   
+<script src="scripts/htmlinclude.js"></script> 
+<script src = "scripts/calc.js"></script>
+</body>
+
+
+</html>

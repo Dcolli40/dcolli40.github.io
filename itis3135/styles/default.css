@@ -9,10 +9,7 @@ body
 
 header
 {
-  font-family: "Audiowide", sans-serif;
-  text-align: center;
-  color: #aad688;
-  text-decoration:none;
+
 }
 
 h1
@@ -73,7 +70,7 @@ li, p
 a
 {  
   color: ghostwhite;
-  text-decoration-style: none;
+  text-decoration: none;
 }
 
 body div
@@ -83,11 +80,12 @@ color: #C59B76;
 font-size: medium;
 text-align: center;
 position:top;
-height: 25px;
+
 background:#5D3A00;
 margin-left: 50px;
 margin-right: 50px;
 }
+
 main
 {
 margin-left:100px;
@@ -100,7 +98,9 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 font-size: medium;
 text-align: center;
 position:relative;
-bottom:auto;
+bottom:0;
+width:100%;
+height:50px;
 text-decoration: none;
 background:#5D3A00;
 margin-left:  75px;
@@ -117,7 +117,7 @@ table, th, td
 {
   border: 1px solid black;
   text-align: center;
-  border-radius: 10px;
+  
 }
 th
 {
@@ -179,3 +179,79 @@ h6
   margin-left: 125px;
   color:#5ea758;
 }
+.topnav
+{
+  font-family: "Audiowide", sans-serif;
+  font-size: medium;
+  text-align: center;
+  position:relative;
+  width:100%;
+  color:ghostwhite;
+  text-decoration: none;
+  text-emphasis-style: none;
+  background:#5D3A00;
+  margin-left:  50px;
+  margin-right: 50px;
+  padding-bottom: 5px;
+  padding-top:5px;
+  padding-right:5px;
+  padding-left:5px;
+}
+.calculatorinput
+{
+  text-align: center;
+}
+.calctable{
+  border: 3px solid black;
+  text-align: center;
+  border-radius: 0%;
+  
+}
+.calcrow, .calcdata{
+  background-color: ghostwhite;
+  text-decoration-style: bold;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 18px;  
+}
+
+.calculator {
+  border-radius: 12px;
+  box-shadow: 0 0 40px 0px rgba(0, 0, 0, 0.15);
+  position: absolute;
+ 
+}
+
+.calculator__display {
+  background-color: #222222;
+  color: #fff;
+  font-size: 20px;
+  padding: 0.5px 0.75px;
+  text-align: right;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.calculator__keys {
+  background-color: #999;
+  display: grid;
+  grid-gap: 1px;
+  grid-template-columns: repeat(4, 1fr);
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  
+  margin: auto;
+}
+.key--equal {
+  background-image: linear-gradient(to bottom, #fe886a, #ff7033);
+  grid-column: -2;
+  grid-row: 2 / span 4;
+}
+footer p
+{
+  text-align: center;
+}
+

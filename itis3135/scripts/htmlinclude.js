@@ -33,6 +33,17 @@
                 xhr.open("GET", url, true);
                 xhr.send();
             }
+            
+            function validateCSS()
+            {
+            document.getElementById("validation_link_css").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+            }
+
+            function validateHTML()
+            {
+            document.getElementById("validation_link_html").setAttribute("href", "https://validator.w3.org/check?uri=" + location.href);
+            }
+
             function lazyLoad(element, offset) {
                 w.addEventListener("scroll", function scrollFunc() {
                     if (isInViewport(element, offset)) {

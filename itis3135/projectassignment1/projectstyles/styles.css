@@ -1,0 +1,11 @@
+main
+{
+    font-family: 'Libre Franklin', sans-serif;
+    padding:50px;
+    /*background: linear-gradient(42deg, #CCFFFF, black);*/
+}
+body
+{
+    font-family: 'Libre Franklin', sans-serif;
+    background-color: #CCFFFF;
+}

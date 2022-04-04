@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset = "utf-8">
+    <style>
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-size:100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      }
+      div, section, span, ul, li, a, header{
+          box-sizing: border-box;
+      }
+      h2{
+          position:absolute;
+          top:10%;
+          color: #3d3935;
+          margin:50px;
+      }
+      h3{
+          position:absolute;
+          top:15%;
+          color: #3d3935;
+          margin:75px;
+      }
+      #one{
+        position:absolute;
+          top:21%;
+          margin:75px;
+      
+      }
+      #introrules{
+          position:absolute;
+          top:15%;
+          color: #3d3935;
+          margin:75px;
+      }
+      #list{
+        position:absolute;
+          top:20%; 
+          margin:75px;
+      }
+      header{
+        border:3px; 
+        border-style:solid; 
+        border-color:#000; 
+          width:100%;
+          display: flex;
+          justify-content: space-between;
+          padding: 20px 50px;
+          text-decoration: none;
+          align-items: center;
+          position:fixed;
+          z-index: 999;
+      }
+      footer{
+        border:3px; 
+        border-style:solid; 
+        border-color:#000; 
+          width:100%;
+          display: flex;
+          justify-content: space-between;
+          padding: 20px 50px;
+          text-decoration: none;
+          align-items: center;
+          position:absolute;
+          bottom:0;
+          
+      }
+      #foot li{
+        list-style: none;
+        display: inline-block;
+        margin:15px;
+      }
+      #foot li a{
+          color:#000;
+          text-decoration: none;
+          font-size:15px;
+      }
+      #nav li{
+        list-style: none;
+        display: inline-block;
+        margin:15px;
+      }
+      #nav li a{
+          color:#000;
+          text-decoration: none;
+          font-size:15px;
+      }
+      #tree{
+        position:absolute;
+            top:10%;
+            left:65%;
+          color: #3d3935;
+          margin:50px;
+      }
+      #plastic{
+        position:absolute;
+            top:30%;
+          color: #3d3935;
+          margin:50px;
+      }
+      #me2{
+        position:absolute;
+            top:15%;
+            left:70%;
+      }
+      #me1{
+        position:absolute;
+            top:15%;
+            left:50%;
+      }
+      #sign{
+        position:absolute;
+            top:15%;
+            left:70%;
+      }
+      figcaption{
+        position:absolute;
+            top:7%;
+            left:72%;
+          color: #3d3935;
+          margin:50px;
+      }
+      section{
+          width:100%;
+          float:left;
+          height:100vh;
+          position: relative;
+      }
+        #home{
+            background-color: #ffeddb;
+        }
+        #about{
+            background-color: #edcdbb;
+        }
+        #dg{
+            background-color: #e3b7a0;
+        }
+        #discs{
+            background-color: #bf9270;
+        }
+        #courses{
+            background-color: #926441;
+        }
+        #dgrules{
+        position:absolute;
+          top:20%; 
+          margin:75px;
+          padding: 10px;
+      }
+    table{
+        position: absolute;
+        top:25%;
+        left:10%;
+        border: 3px; 
+        text-align:center;
+    }
+    #tablenote{
+        position: absolute;
+        top:85%;
+        left:10%;
+    }
+    #coursetable{
+        position: absolute;
+        top:30%;
+        left:10%;
+    }
+    #beans{
+        position:absolute;
+            top:15%;
+            left:70%;
+    }
+    #gif{ position:absolute;
+            top:50%;
+            left:20%;}
+      </style>
+      
+    <title>My Disc Golf Hobby</title>
+</head>
+<body>
+    
+    <section id = "home">
+        <header>
+            <a href = "#"><img src = "images/coolLogoImage.png" alt = "no Pic"></a>
+            <ul id = "nav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#dg">Disc Golf</a></li>
+                <li><a href="#discs">Discs</a></li>
+                <li><a href="#courses">Courses near UNCC</a></li>   
+            </ul>
+            
+        </header>
+        <h2>Home</h2>
+        <figure><img src = "images/trees.jpg" id = "tree"> 
+            <figcaption>A beautiful day out disc golfing!</figcaption></figure>
+            
+        <h3>Welcome to my disc golf hobby site!</h3>
+
+        <p id = "one">Here you will learn a little bit about me, and about Disc Golf!</p>
+        <figure><img src = "images/plastics.jpg" alt ="" id = "plastic"></figure>
+    </section>
+
+        <section id = "about">
+            <h2>About Me</h2>
+            <ul id = "list">
+                <li>I am an avid disc golfer who lives in the charlotte area.</li>
+                <li>My favorite part of disc golf is getting to walk around in nature and spend time with my friends.</li>
+                      
+                <li>Not to mention that hitting the chains is one of the most satisfying sounds!</li>
+                
+                <li>My favorite couses are Reedy Creek, and Nevin Park.</li>
+                <li>Disc golf fun fact: The longest ever known ace(hole in one) was launched from 726 feet away</li>
+            </ul>
+            <figure><img src = "images/me1.jpg" alt = "" id = "me1"></figure>
+            <figure><img src = "images/me2.jpg" alt = "" id = "me2"></figure>
+        </section>
+        <section id = "dg">
+            <h2>What is Disc Golf?</h2>
+            <p id = "introrules">Disc Golf has some rules that a new player should definitely know!</p>
+            <ul id = "dgrules">
+                <li>Disc Golf is a lot like regular golf where your score is calculated in relation to the par of the course.</li>
+                
+                <li>Par is something that changes per hole, but for most disc golf courses par is either 3, 4, or 5!</li>
+                    
+                <li>That means that the player would have 3, 4, or 5 throws to get their disc into the basket!</li>
+                
+                <li>When players throw their disc they must stand even with or behind where their disc landed.</li>
+                  
+                <li>This is where "play it where it lies" comes into effect!</li>
+                    
+                
+                <li>There are many ways to throw a disc, forehand, backhand, tomohawk, and scuber.</li>
+                
+                <li>Each of these throws have a different effect on the direction of the disc.</li>
+                <li>It is up to the player to test and see what throw they like best</li>
+                
+                
+                <li>In disc golf, the more spin the better!</li>
+                <li>Always remember to check the sign and see where the basket is, and decide what path you want to take.</li>
+                <li>The hole is finished when the players disc lands in the basket.</li>
+                <li>Players score is calculated by how many shots, over or under par they are!</li>
+                   
+                <li>Even, or under par is a very Strong score for a player to finish with!</li>
+                <li>But when you first start, dont get too caught up in how high or low your score is, just enjoy the game!!</li>
+                    
+                
+            </ul>
+            <figure><img src = "images/hole.jpg" alt = "" id = "sign"></figure>
+        </section>
+        <section id = "discs">
+            <h2>Discs</h2>
+            <table >
+                <tr>
+                  <th>Putter</th>
+                  <th>Mid-Range</th>
+                  <th>Driver</th>
+                </tr>
+                <tr>
+                  <td><img src="images/putter.jpg" alt="" /></td>
+                  <td><img src="images/midrange.jpg" alt="" /></td>
+                  <td><img src="images/driver.jpg" alt="" /></td>
+                </tr>
+              </table>
+              <ul id = "tablenote">
+                <li>There are many different kinds of discs but the main 3 types are putter, mid-range, and driver.</li>
+                <li>All anyone needs to play a good round of disc golf is at least a putter and a driver!</li>
+                <li>Different discs have different numbers on them that tell you: speed, glide, turn, and fade. This tells you how hard to throw the disc and how it will move when its gliding.</li>
+                
+            </ul>
+        </section>
+        <section id = "courses">
+            <footer>
+                <ul id = "foot">
+                <li><a href = "../collinscreations.com/index.html">Designed by &copy;CollinsCreations</a></li>
+                <li><a href = "https://validator.w3.org/check?uri=" id = "validate_html"><img src = "images/button_validation_html5.png"  alt = "HTML Validation Button" width = "88" height = "31"></a></li>
+                <li><a href = "https://jigsaw.w3.org/css-validator/check/referer?uri=" id = "validate_css"><img src = "images/button_validation_css.png"  alt = "CSS Validation Button" width = "88" height ="31"></a> </li>    
+            </ul>
+                    
+            </footer>
+                    <h2>Courses Near Charlotte</h2>
+                    <h3>In my opinion these are some of the best courses around!</h3>
+                    <table id = "coursetable">
+                        <tr>
+                          <th>Course Name</th>
+                          <th>Course address</th>
+                          <th>Course difficulty</th>
+                        </tr>
+                        <tr>
+                            <td>Nevin Park</td>
+                            <td>6000 Statesville Rd, Charlotte, NC 28269</td>
+                            <td>3/5</td>
+                        </tr>
+                        <tr>
+                            <td>Reedy Creek Park</td>
+                            <td>2900 Rocky River Rd, Charlotte, NC 28213</td>
+                            <td>2.5/5</td>
+                        </tr>
+                        <tr>
+                            <td>Sugaw Creek Park</td>
+                            <td>941 W Sugar Creek Rd, Charlotte, NC 28213</td>
+                            <td>1/5</td>
+                        </tr>
+                        <tr>
+                            <td>Renaissance Gold</td>
+                            <td>1200 W Tyvola Rd, Charlotte, NC 28217</td>
+                            <td>6/5 (Hardest Course in Charlotte)</td>
+                        </tr>
+                        <tr>
+                            <td>Hornets Nest</td>
+                            <td>6230 Beatties Ford Rd, Charlotte, NC 28216</td>
+                            <td>4/5</td>
+                        </tr>
+                      </table>
+                      <figure id = "beans"><img src = "images/walkingdisc.jpg" alt ="" ></figure>
+                      <figure id = "gif"><img src = "images/putt.gif" alt = "gif"></figure>
+        </section>
+    <script>
+        document.getElementById("validate_html").setAttribute("href", "https://validator.w3.org/check?uri=" + location.href);
+        document.getElementById("validation_css").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+    </script>   
+</body>
+</html>

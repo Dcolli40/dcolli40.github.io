@@ -3,53 +3,77 @@
 <head>
     <meta charset = "utf-8">
     <title>Collins Creations Home</title>
+    <link href = "./styles/default.css" type = "text/css"  rel = "stylesheet">
 </head>
-<style>
-    h1,h3
-    {
-        color: #e2725b;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
-    body
-    {
-        background-color: #FFFDD0;
-        margin-left: 25px;
-        margin-right: 25px;
-    }
-    footer
-    {
-        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-       background-color: #CC5500;
-       text-align: center;
-       color: #FFFDD0;
-    }
-    figure
-    {
-        font-style: italic;
-        text-align: center;
-    }
-</style>
+
 <body>
     <header>
         <h1>Collins Creations</h1>
     </header>
     
     <main>
-        <h2>This is a cat</h2>
+        <h2>Made By: Dan Collins</h2>
         <figure>
             <img src = "images/IMG_0152.JPG" alt = "Dan with harem" width = "400" height = "600">
             <figcaption>Dan Collins: Owner of Collins Creations&copy;2022</figcaption>
         </figure>
-        
+        <h3>Backgrounds</h3>
+        <ul>
+            <li>Personal Background
+                <ul>
+                    <li>I am a computer science student at UNCC</li>
+                    <li>My hobbies include Spikeball, guitar, hiking and gaming.</li>
+                </ul>
+            </li>
+            <li>Professional Background
+                <ul>
+                    <li>I spent 2 years as a programming instructor to middle school aged kids</li>
+                    <li>I have worked in a leadership position for a summer camp that travels the east coast</li>                
+                </ul>
+            </li>
+            <li>Academic Background
+                <ul>
+                    <li>I'm a 3.0 gpa level student.</li>
+                    <li>I am a junior in computer science with a concentration in software engineering.</li>
+                    <li>I began taking coding classes in highschool, starting with visual basic.</li>
+                </ul>
+            </li>
+            <li>Background in the course
+                <ul>
+                    <li>I don't have any background experience with HTML and CSS, but I did do some back end work in the software engineering course at UNCC</li>
+                </ul>
+            </li>
+            <li>Primary Computer Platform
+                <ul>
+                    <li>Windows</li>
+                </ul>
+            </li>
+            <li>Courses in progress
+                <ul>
+                    <li>ITCS 3160</li>
+                    <li>ITIS 3135</li>
+                    <li>ITSC 3688</li>
+                    <li>ITIS 3310</li>
+                    <li>LBST 2301</li>
+                </ul>
+            </li>
+            <li>Funny Story: One time I was sleeping and my roommate blasted the monster's inc. theme song and I never woke up.
+            </li>
+            <li>I'd like to share that if at first you dont succeed, try, try again.
+            </li>
+        </ul>
     </main>
     <footer>
         <a href = "https://github.com/dcolli40/">Github</a> || <a href = "https://dcolli40.github.io/">Github.io</a> || <a href = "https://dcolli40.github.io">ITIS 3135 Github Pages</a> || <a href = "https://www.codecademy.com/profiles/Dcolli40">Codeacademy</a> || <a href = "https://www.freecodecamp.org/Dcolli40">freeCodeCamp</a> || <a href = "https://jsfiddle.net/user/Danthecodingman/">JSFiddle</a> || <a href = "https://www.linkedin.com/in/dan-collins-85ba0a192/">LinkedIn</a> 
         <br>
         <p><a href = "/">Collins Creations</a> &copy;2022 </p>
         <br>
-        <a href = "https://validator.w3.org/nu/?doc=https%3A%2F%2Fwebpages.charlotte.edu/dcolli40/itis3135/contract.html%2F"><img src = "../images/button_validation_html5.png" alt = "HTML Validation Button"></a>
-        <a href = "https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2webpages.charlotte.edu/dcolli40/itis3135/contract.html%2F"><img src = "../images/button_validation_css.png" alt = "CSS Validation Button"></a>
-
-    </footer>    
+        <a href = "https://validator.w3.org/check?uri=" id = "validate_html"><img src = "../images/button_validation_html5.png"  alt = "HTML Validation Button" width = "88" height = "31"></a>
+    <a href = "https://jigsaw.w3.org/css-validator/check/referer?uri=" id = "validate_css"><img src = "../images/button_validation_css.png"  alt = "CSS Validation Button" width = "88" height ="31"></a>
+    <script>
+        document.getElementById("validate_html").setAttribute("href", "https://validator.w3.org/check?uri=" + location.href);
+        document.getElementById("validation_css").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+    </script>
+    </footer>
 </body>
 </html>

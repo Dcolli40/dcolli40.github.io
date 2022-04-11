@@ -1,11 +1,35 @@
 main
 {
     font-family: 'Libre Franklin', sans-serif;
-    padding:50px;
+    margin-left: 15px;
+    margin-right:15px;
     /*background: linear-gradient(42deg, #CCFFFF, black);*/
 }
 body
 {
+    width: auto;
+    height:auto;
     font-family: 'Libre Franklin', sans-serif;
     background-color: #CCFFFF;
+    margin: 0;
+    padding: 0;
+}
+div.section{ 
+    width:50%;
+    margin: auto;
+}
+div.section2{ 
+    width:auto;
+    margin: 15px;
+}
+figure {
+    display: block;
+    text-align: center;
+    float:inline-start;
+  }
+
+section {
+    padding: 5px;
+    display:flex;
+    flex-direction: row;
 }

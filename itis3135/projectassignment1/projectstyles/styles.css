@@ -1,35 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Libre+Franklin&display=swap');
 main
 {
-    font-family: 'Libre Franklin', sans-serif;
-    margin-left: 15px;
-    margin-right:15px;
-    /*background: linear-gradient(42deg, #CCFFFF, black);*/
+max-width:90%;
+height: fit-content;
+background-color: #F9F6EE;
+font-family: 'Libre Franklin', sans-serif;
+margin:auto;
+padding-top: 40px;
+padding-bottom:20px;
+/*background: linear-gradient(42deg, #CCFFFF, black);*/
 }
 body
 {
-    width: auto;
-    height:auto;
-    font-family: 'Libre Franklin', sans-serif;
-    background-color: #CCFFFF;
-    margin: 0;
-    padding: 0;
-}
-div.section{ 
-    width:50%;
-    margin: auto;
-}
-div.section2{ 
-    width:auto;
-    margin: 15px;
+width: 100%;
+max-height: fit-content;
+background-color: #000;
+font-family: 'Libre Franklin', sans-serif;
+padding: 0;
 }
 figure {
-    display: block;
-    text-align: center;
-    float:inline-start;
-  }
-
+display: block;
+text-align: center;
+float:inline-start;
+}
+img{
+border-radius: 3px;
+border-color: black;
+}
 section {
-    padding: 5px;
-    display:flex;
-    flex-direction: row;
+width: 50vw;
+height:50vh;
+padding: 5px;
+display:flex;
+flex-direction: row;
+}
+h2, h4, h5, h6, p{
+margin-left:15px;
+}
+.slideshow{
+width:600px;
+margin-bottom:10%;
+margin-left:8%;
+overflow:auto;
+color:#F9F6EE;
+padding-top: 100px;
+}
+.welcome{
+margin-left:5%;
+width: 600px;
+color:#F9F6EE;
+}
+.slides{
+width: 550px;
+height:367px;
+overflow: hidden;
+float:left;
+padding:2px;
+background-color: #000;
+}
+.slides img{
+display:none;
+}
+.slides img.active{
+display:inline-block;
+}
+.back,.forward{
+float:left;
+margin-top: 130px;
+cursor:pointer;
+}
+.back{
+position:relative;
+z-index:100;
+margin-right:-50px;
+}
+.forward{
+position:relative;
+z-index:100;
+margin-left:-50px;
+}
+.slideshow h3{
+text-align: center;
+}
+.scorekeeper{
+display:grid;
+margin:auto;
+grid-template-columns: repeat(2, 1fr);
+width: 100%;
+height:500px;
+font-family: 'Koulen', cursive;
+}
+.team_1,.team_2, .score_1, .score_2{
+padding: 10px;
+text-align: center;
+font-size: xx-large;
+}
+.team_1,.team_2{
+font-weight:bold;
+border-bottom:1.5px solid #000;
+font-size: 75px;
+}
+.team_1{
+color:red;
+}
+.team_2{
+color:blue;
+}
+.score_1,.score_2{
+font-size:125px;
+}
+.score_1_controls, .score_2_controls{
+display: flex;
+}
+.control_button{
+flex-grow:1;
+border:none;
+background: #eee;
+cursor:pointer;
+font-size:25px;
+}
+.control_button:hover{
+background:linear-gradient(319deg, #e4ff6d 0%, #ffad42 37%, #e4ff6d 100%);;
+}
+.control_button:active{
+background:linear-gradient(319deg, #e4ff6d 0%, #ffad42 37%, #8B8000 100%);;
+}
+.entry{
+margin:25px;
+display: inline-block;
+font-family: 'Koulen', cursive;
+}
+#btn2{
+margin-left:715px;
+}
+#btn2, #btn1{
+border:1.5px solid #000;
+}
+input{
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+display: inline-block;
+flex-grow:1;
+font-size: 25px;
+}
+iframe{
+width:600px;
+height:385px;
+float:right;
+margin: 25px;
+margin-top:50px;
+}
+.bodyD{
+max-width: 50%;
+margin-left: 20px;
+margin-top:40px;
+}
+.bodyD a{
+text-decoration:none;
+color: lightslategray;
+}
+.bodyD a:hover{
+text-decoration:underline;
+color: red;
+}
+.pc-box{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin-bottom:30px;
+}
+.ibox{
+width: 43%;
+padding: 15px 15px 25px;
+position: relative;
+background-color: #999999;
+border: 1px solid black;
+}
+.ibox ul {
+margin: 0 auto;
+width: 85%;
+position:relative;
+z-index:10;
+}
+.ibox li{
+margin-top: 15px;
+list-style-image:url("../images/SPIKEBALL.png");
+}
+.pros{
+margin-right: 2%;
+}
+.pc-box h3{
+padding:15px;
+margin-top:-15px;
+margin-left:-15px;
+margin-right:-15px;
+text-align: center;
+}
+.pros h3, .cons h3{
+font-size:23px;
+font-weight:600;
+color: #fff;
+border-bottom: 2px solid #000;
+}
+.pros h3{
+background:linear-gradient(to right, #5fcc89, #24b95e);
+}
+.cons h3{
+background: #de6c64;
+}
+.bg-icon {
+height: 0;
+}
+.graph1{
+border: 2px solid black;
+margin-left:60%;
+position:relative;
+top:-150px;
+}
+.formation{
+margin-left:25px; 
+}
+.bodyexp{
+width: 40%;
+font-size: larger;
+border:2px solid black;
+}
+.row {
+display: flex;
+margin-left: 45px;
+}
+.column {
+flex: 50%;
+padding: 10px;
+}
+.column img{
+border:2px solid #000;
+}
+.column p{
+margin-left: 15px; 
+width:90%;
+text-align: center;
+}
+.cutcontainer{
+display:flex;
+}
+.cutcontainer p{
+width: 95%;
+}
+.f0{
+flex:50%;
+padding:5px;
+}
+.hold{
+margin-top:50px;
+}
+.joelserve {
+margin: 50px;
+}
+.joelserve, p{
+width:550px;
+}
+.proservev{
+margin:50px 90px;
+}
+.proserve{
+margin:50px;
+}
+.rve{
+margin: 50px;
+}
+.iframepdf{
+width:90%;
+height: 750px;
+margin-right:15px;
+}
+.hold li{
+text-decoration: solid;
 }

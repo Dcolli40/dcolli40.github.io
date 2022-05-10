@@ -1,35 +1,49 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap" rel="stylesheet">
-    <meta charset = "utf-8">
-    <title>Spike Central Station Home</title>
-    <link rel="icon" href="images/SPIKEBALL.png" type="image/gif">
-    <link href = "projectstyles/styles.css" type = "text/css"  rel = "stylesheet">
-</head>
-<body>
-    <header><div data-include="componets/header.html"></div></header>
-        <main>
-        <section>
+   <head>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap" rel="stylesheet">
+      <meta charset = "utf-8">
+      <title>Spike Central Station Home</title>
+      <link rel="icon" href="images/SPIKEBALL.png" type="image/gif">
+      <link href = "projectstyles/styles.css" type = "text/css"  rel = "stylesheet">
+      <script src="https://code.jquery.com/jquery-3.6.0.js"
+         integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+         crossorigin="anonymous"></script>
+      <script src="scripts/main.js"></script>
+      <style>
+         main{
+         background-image: url('images/spikenicegraphic.jpg');
+         } 
+      </style>
+   </head>
+   <body>
+      <header>
+         <div data-include="componets/header.html"></div>
+      </header>
+      <main>
+         <div class = "welcome">
             <h2>Welcome!</h2>
-            <div class = "section">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui nunc mattis enim ut tellus elementum. Convallis a cras semper auctor neque vitae tempus quam. Egestas egestas fringilla phasellus faucibus scelerisque. Velit ut tortor pretium viverra suspendisse potenti nullam. Sed velit dignissim sodales ut eu sem integer vitae justo. Dignissim suspendisse in est ante. Pharetra convallis posuere morbi leo urna molestie. Egestas sed tempus urna et pharetra pharetra. Pulvinar sapien et ligula ullamcorper malesuada proin libero. Consectetur lorem donec massa sapien faucibus. Semper feugiat nibh sed pulvinar proin. Posuere sollicitudin aliquam ultrices sagittis.
-
-                Sit amet venenatis urna cursus eget. Nulla at volutpat diam ut venenatis tellus in metus vulputate. Orci a scelerisque purus semper eget. Justo nec ultrices dui sapien eget. Quis viverra nibh cras pulvinar mattis nunc sed. Varius vel pharetra vel turpis nunc eget lorem dolor. Enim sed faucibus turpis in eu mi bibendum. Nisi porta lorem mollis aliquam. Cras pulvinar mattis nunc sed blandit libero volutpat sed. Eu scelerisque felis imperdiet proin fermentum leo vel orci porta. Praesent semper feugiat nibh sed pulvinar proin gravida hendrerit lectus. Eu mi bibendum neque egestas congue quisque egestas diam in.
-                
-                Imperdiet proin fermentum leo vel orci porta. Quis ipsum suspendisse ultrices gravida dictum fusce ut placerat. Tellus mauris a diam maecenas. Maecenas volutpat blandit aliquam etiam erat velit scelerisque. Dui accumsan sit amet nulla facilisi morbi. Erat nam at lectus urna duis convallis. Cras pulvinar mattis nunc sed blandit libero volutpat sed cras. Pharetra massa massa ultricies mi quis. Sollicitudin tempor id eu nisl nunc. Id porta nibh venenatis cras sed felis. Sed felis eget velit aliquet sagittis id consectetur purus. Erat velit scelerisque in dictum. Tempor orci eu lobortis elementum nibh tellus. Amet massa vitae tortor condimentum lacinia. Eget nullam non nisi est. Sit amet luctus venenatis lectus magna. Mauris vitae ultricies leo integer malesuada nunc vel risus commodo. Nisl tincidunt eget nullam non nisi.</p></div>
-            <div class = "section"><figure><img src = "images/spikeset1.JPG"><figcaption>This is a typical spikeball tourney.</figcaption></figure></div>
-        </section>
-        <section>
-            <h4>Tournament Views</h4>
-            <div class = "section2"><figure><img src = "images/set.JPG"><figcaption>In game setting.</figcaption></figure></div>
-            <div class = "section2"><figure><img src = "images/serve.JPG"><figcaption>Serving preview.</figcaption></figure></div>
-            <div class = "section2"><figure><img src = "images/wrap.JPG"><figcaption>Hitting on net.</figcaption></figure></div>
-        </section> 
-        </main>
-    <footer><div data-include="componets/footer.html"></div></footer>
-<script src="scripts/htmlinclude.js"></script>   
-</body>
+            <h4>Here we will learn everything you need to know to get started with Spikeball. Learn the ropes, with the rules, learn serving and defense and keep track of the scores of the games you play with your friends!</h4>
+         </div>
+         <div class = "slideshow">
+            <h3>Check Out the Action!</h3>
+            <div class = "outside">
+               <img src = "images/back.png" class = "back" alt = "left">
+               <div class = "slides">
+                  <img src = "images/nice.JPG" class = "active" alt = "slidepic1">
+                  <img src = "images/set.JPG" alt = "slidepic2">
+                  <img src = "images/serve2.JPG" alt = "slidepic3">
+                  <img src = "images/wrap.JPG" alt = "slidepic4">   
+               </div>
+               <img src = "images/forward.png" class = "forward" alt = "right">
+            </div>
+         </div>
+      </main>
+      <footer>
+         <div data-include="componets/footer.html"></div>
+      </footer>
+      <script src="scripts/htmlinclude.js"></script>   
+   </body>
 </html>

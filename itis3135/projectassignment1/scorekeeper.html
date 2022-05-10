@@ -1,20 +1,47 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap" rel="stylesheet">
-    <meta charset = "utf-8">
-    <title>Score Keeper</title>
-    <link rel="icon" href="images/SPIKEBALL.png" type="image/gif">
-    <link href = "projectstyles/styles.css" type = "text/css"  rel = "stylesheet">
-</head>
-<body>
-    <div data-include="componets/header.html"></div>
-    <main>
-   
-    </main>
-    <div data-include="componets/footer.html"></div>
-<script src="scripts/htmlinclude.js"></script>   
-</body>
+   <head>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap" rel="stylesheet">
+      <meta charset = "utf-8">
+      <title>Score Keeper</title>
+      <link rel="icon" href="images/SPIKEBALL.png" type="image/gif">
+      <link href = "projectstyles/styles.css" type = "text/css"  rel = "stylesheet">
+   </head>
+   <body>
+      <div data-include="componets/header.html"></div>
+      <main>
+         <div class = "entry">
+            <input  id="team1name" placeholder = "Enter Team 1 Name" type = "search"/>
+            <input  id = "team2name" placeholder = "Enter Team 2 Name" type= "search"/>
+            <button class = control_button id ="btn1" onclick = "teamName()">Enter</button>  
+            <button class = control_button id ="btn2" onclick = "clearAll()">Reset</button>
+         </div>
+         <div class = "scorekeeper">
+            <div class = "team_1" id = "team1">
+               <h6></h6>
+            </div>
+            <div class = "team_2" id = "team2">
+               <h6></h6>
+            </div>
+            <div class = "score_1" id = "team_1_score">0</div>
+            <div class = "score_2" id = "team_2_score">0</div>
+            <div class = "score_1_controls">
+               <button class="control_button" onclick = "scoredown1()">-</button>
+               <button class="control_button" onclick = "scoreup1()">+</button>
+            </div>
+            <div class = "score_2_controls">
+               <button class="control_button" onclick = "scoredown2()">-</button>
+               <button class="control_button" onclick = "scoreup2()">+</button>
+            </div>
+         </div>
+      </main>
+      <div data-include="componets/footer.html"></div>
+      <script src="scripts/htmlinclude.js"></script>   
+      <script src="scripts/score.js"></script>  
+   </body>
 </html>

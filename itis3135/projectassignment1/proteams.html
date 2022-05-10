@@ -1,20 +1,94 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap" rel="stylesheet">
-    <meta charset = "utf-8">
-    <title>Professional Teams</title>
-    <link rel="icon" href="images/SPIKEBALL.png" type="image/gif">
-    <link href = "projectstyles/styles.css" type = "text/css"  rel = "stylesheet">
-</head>
-<body>
-    <div data-include="componets/header.html"></div>
-    <main>
-   
-    </main>
-    <div data-include="componets/footer.html"></div>
-<script src="scripts/htmlinclude.js"></script>   
-</body>
+   <head>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap" rel="stylesheet">
+      <meta charset = "utf-8">
+      <title>Professional Teams</title>
+      <link rel="icon" href="images/SPIKEBALL.png" type="image/gif">
+      <link href = "projectstyles/styles.css" type = "text/css"  rel = "stylesheet">
+      <style>
+         main{
+         background-image: url('images/Facebook\ Post.jpg');
+         }
+      </style>
+   </head>
+   <body>
+      <div data-include="componets/header.html"></div>
+      <main>
+         <link href = "projectstyles/leaderboard.css" type = "text/css"  rel = "stylesheet">
+         <div class = "proScene">
+            <header>
+               <h1>Professional Team Rankings</h1>
+               <nav>
+                  <a href = "#" class="active">2022 Season</a>
+                  <a href = "#" class="active">2023 Season</a>
+               </nav>
+               <table>
+                  <thead>
+                     <tr>
+                        <th class = "rank"></th>
+                        <th class = "tName">Team Name</th>
+                        <th class = "players">Team Members</th>
+                        <th class = "win">Big Tournament Wins</th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <tr>
+                        <td class="rank">1</td>
+                        <td class="tName">Double Clutch</td>
+                        <td class = "players">Fredric Hinkle & Rahul Murthy</td>
+                        <td class = "win">2021 Nationals Champs</td>
+                     </tr>
+                     <tr>
+                        <td class="rank">2</td>
+                        <td class="tName">Assistive Touch</td>
+                        <td class = "players">Buddy Hammon & Clark Marshall</td>
+                        <td class = "win">1st place in California Tour stop</td>
+                     </tr>
+                     <tr>
+                        <td class="rank">3</td>
+                        <td class="tName">Sloppy Seconds</td>
+                        <td class = "players">Gabe Finocchi & Travis Core</td>
+                        <td class = "win">1st in Chicago and Rock Hill stops</td>
+                     </tr>
+                     <tr>
+                        <td class="rank">4</td>
+                        <td class="tName">Ritto Boys</td>
+                        <td class = "players">Ryder Rivadeneyra & Coleman Epperson</td>
+                        <td class = "win">2nd  Place 2021 Nationals</td>
+                     </tr>
+                     <tr>
+                        <td class="rank">5</td>
+                        <td class="tName">Boysterous</td>
+                        <td class = "players">Preston Bies & Caleb Heck</td>
+                        <td class = "win">4th Place 2021 Nationals</td>
+                     </tr>
+                     <tr>
+                        <td class="rank">6</td>
+                        <td class="tName">Volley Lamas</td>
+                        <td class = "players">Joe Bondi & Will Picone</td>
+                        <td class = "win">2nd Place at Erie Tour stop</td>
+                     </tr>
+                     <tr>
+                        <td class="rank">7</td>
+                        <td class="tName">Knotty</td>
+                        <td class = "players">Jarratt Rouse & Ryan Fitzgerald</td>
+                        <td class = "win">5th Place 2021 Nationals</td>
+                     </tr>
+                     <tr>
+                        <td class="rank">8</td>
+                        <td class="tName">Twinz</td>
+                        <td class = "players">Olivia & Ali Jenki</td>
+                        <td class = "win">1st Nationals 2021 Womens Division</td>
+                     </tr>
+                  </tbody>
+               </table>
+            </header>
+         </div>
+      </main>
+      <div data-include="componets/footer.html"></div>
+      <script src="scripts/htmlinclude.js"></script>   
+   </body>
 </html>

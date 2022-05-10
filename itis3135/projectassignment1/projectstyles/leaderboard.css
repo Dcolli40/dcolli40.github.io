@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Libre+Franklin&display=swap');
+
+.proScene{
+    max-width: 1000px;
+    
+    margin: 1rem auto;
+    font-family:'Koulen', cursive;
+    
+}
+.proScene *{
+    box-sizing: border-box;
+}
+.proScene header{
+    background-color: #e4ff6d;
+    color:black;
+    text-transform:uppercase;
+    border: 1px solid black;
+}
+
+.proScene a{
+    text-decoration: none;
+    color:inherit;
+    margin-left:15px;
+    padding:5px;
+}
+.proScene a:active{
+    border-bottom:4px solid black;
+}
+table{
+    background-color:#16181e;
+    color:#999;
+    width:100%;
+    border-collapse: collapse;
+}
+thead {
+    font-size: 15px;
+    color:#777;
+    text-transform:uppercase;
+    text-align: center;
+    background-color:#1a232c;
+    font-weight:25;
+}
+h1{
+    font-size: 30px;
+    margin-left: 10px;
+}
+tbody{
+    font-size:20px;
+}
+tbody .tName{
+    color:white;
+    font-weight: 45;
+}
+
+.rank{
+    text-align: center;
+}
+.tName{
+text-align: left;
+}
+.players{
+    text-align: center;
+}
+.wins{
+    text-align: center;
+    }
+th{
+    padding: 1rem 1rem 0;
+}
+    td{
+        padding:.5rem 1rem;
+        text-align: center;
+    }
+
